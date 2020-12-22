@@ -26,8 +26,9 @@
                 <rect
                     width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h5>Desarrollo de Software</h5>
+                    <p>Diseñamos estrategias de crecimiento que permitan trazar nuevas
+              oportunidades para su negocio.</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -35,8 +36,9 @@
                 <rect
                     width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h5>Analisís de Datos</h5>
+                    <p>Ayudamos al negocio a entender los insights que arrojan sus datos
+              de cara a la mejora continua.</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -44,8 +46,9 @@
                 <rect
                     width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h5>Transformación Digital</h5>
+                    <p>Impulsamos las últimas tecnologías para ayudar a las
+              organizaciones a transformarse</p>
                 </div>
             </div>
         </div>
@@ -73,8 +76,8 @@
                 <div class="col-md-6 mt-md-0 mt-3">
 
                     <!-- Content -->
-                    <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat. Itaque, culpa?</p>
+                    <h5 class="text-uppercase font-weight-bold"></h5>
+                    <p>Todos los derechos reservados &#174;2020 - Grupo 14 MisionTIC</p>
 
                 </div>
                 <!-- Grid column -->
@@ -85,8 +88,10 @@
                 <div class="col-md-6 mb-md-0 mb-3">
 
                     <!-- Content -->
-                    <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id excepturi hic.
+                    <h5 class="text-uppercase font-weight-bold">Redes Sociales</h5>
+                    <p>Facebook @DesarrolloSoftware
+                       Twitter @DesarrolloSoftware
+                       Instagram @DesarrolloSoftware
                     </p>
 
                 </div>
