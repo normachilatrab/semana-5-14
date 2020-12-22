@@ -6,7 +6,7 @@ import vuetify from "./plugins/vuetify";
 import axios from 'axios';
 
 Vue.config.productionTip = false;
-axios.defaults.baseURL = 'http://localhost:3000/api/';
+axios.defaults.baseURL = 'https://grupo-14-backend.herokuapp.com/api/';
 new Vue({
     router,
     store,
