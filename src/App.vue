@@ -27,44 +27,25 @@
           </ul>
         </div>
       </nav>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+      <div id="servicesCap" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleCaptions"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li
-            data-target="#carouselExampleCaptions"
-            data-slide-to="1"
-            class=""
-          ></li>
-          <li
-            data-target="#carouselExampleCaptions"
-            data-slide-to="2"
-            class=""
-          ></li>
+          <li data-target="#servicesCap" data-slide-to="0" class="active"></li>
+          <li data-target="#servicesCap" data-slide-to="1" class=""></li>
+          <li data-target="#servicesCap" data-slide-to="2" class=""></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <svg
+            <img
+              src="https://icloudseven.com/wp-content/uploads/2019/04/Desarrollo-de-software-i-cloud-seven-slide.jpg"
               class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+              alt="Desarrollo de Software"
               width="800"
-              height="400"
-              xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
               role="img"
-              aria-label="Placeholder: First slide"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777"></rect>
-              <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text>
-            </svg>
+              height="400"
+            />
+
             <div class="carousel-caption d-none d-md-block">
               <h5>Desarrollo de Software</h5>
               <p>
@@ -74,20 +55,6 @@
             </div>
           </div>
           <div class="carousel-item">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
-              width="800"
-              height="400"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: Second slide"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#666"></rect>
-              <text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text>
-            </svg>
             <div class="carousel-caption d-none d-md-block">
               <h5>Analisís de Datos</h5>
               <p>
@@ -97,20 +64,6 @@
             </div>
           </div>
           <div class="carousel-item">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
-              width="800"
-              height="400"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: Third slide"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#555"></rect>
-              <text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text>
-            </svg>
             <div class="carousel-caption d-none d-md-block">
               <h5>Transformación Digital</h5>
               <p>
@@ -122,7 +75,7 @@
         </div>
         <a
           class="carousel-control-prev"
-          href="#carouselExampleCaptions"
+          href="#servicesCap"
           role="button"
           data-slide="prev"
         >
@@ -131,7 +84,7 @@
         </a>
         <a
           class="carousel-control-next"
-          href="#carouselExampleCaptions"
+          href="#servicesCap"
           role="button"
           data-slide="next"
         >
