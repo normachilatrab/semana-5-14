@@ -27,71 +27,38 @@
           </ul>
         </div>
       </nav>
-      <div id="servicesCap" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#servicesCap" data-slide-to="0" class="active"></li>
-          <li data-target="#servicesCap" data-slide-to="1" class=""></li>
-          <li data-target="#servicesCap" data-slide-to="2" class=""></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://icloudseven.com/wp-content/uploads/2019/04/Desarrollo-de-software-i-cloud-seven-slide.jpg"
-              class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
-              alt="Desarrollo de Software"
-              width="800"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              height="400"
-            />
 
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Desarrollo de Software</h5>
-              <p>
-                Diseñamos estrategias de crecimiento que permitan trazar nuevas
-                oportunidades para su negocio.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Analisís de Datos</h5>
-              <p>
-                Ayudamos al negocio a entender los insights que arrojan sus
-                datos de cara a la mejora continua.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Transformación Digital</h5>
-              <p>
-                Impulsamos las últimas tecnologías para ayudar a las
-                organizaciones a transformarse
-              </p>
-            </div>
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#servicesCap"
-          role="button"
-          data-slide="prev"
+      <div>
+        <b-carousel
+          id="carousel-1"
+          :interval="4000"
+          controls
+          indicators
+          background="#ababab"
+          img-width="800px"
+          img-height="400px"
+          style="text-shadow: 1px 1px 2px #333"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#servicesCap"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Siguiente</span>
-        </a>
+          <b-carousel-slide
+            caption="Desarrollo de Sofware"
+            text="Diseñamos estrategias de crecimiento que permitan trazar nuevas oportunidades para su negocio."
+            img-src="https://i.imgur.com/jYr4mpa.png"
+          ></b-carousel-slide>
+
+          <b-carousel-slide
+            caption="Procesos de Formación Empresarial"
+            text="Ofrecemos planes para mejorar las cualidades y habilidades de los empleados de una organización con el objetivo de seguir siendo competitiva, incluso mejorar la productividad empresarial, y no quedarse atrás en relación a los competidores y a las exigencias del mercado actual."
+            img-src="https://i.imgur.com/G3D264u.png"
+          ></b-carousel-slide>
+
+          <b-carousel-slide
+            caption="Capacitaciones y Certificaciones"
+            text="Creamos las rutas indicadas de acuerdo a las capacidades y fortalezas de cada uno de sus empleados"
+            img-src="https://i.imgur.com/5FDf52b.png"
+          ></b-carousel-slide>
+        </b-carousel>
       </div>
+
       <div>
         <home />
       </div>
